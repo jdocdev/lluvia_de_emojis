@@ -25,7 +25,7 @@ body {
 	}
 }
 
-.rainDrop, .rainDrop--m, .rainDrop--l, .rainDrop--xl {
+.rainDrop {
     font-size: var(--sz);
 	filter: blur(var(--blur));
 	animation: flake 20s linear infinite;
@@ -33,7 +33,7 @@ body {
 	opacity: var(--a);
 }
 
-.rainDrop {
+.rainDrop--s {
 	--sz: 1rem;
 	--blur: 2px;
 	--a: 0.8;
